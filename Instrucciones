@@ -1,0 +1,7 @@
+Paso 1 Descarga el proyecto y abrelo con Android studio .
+paso 2 ve a app/mainfest/AndroidMainfest.xml y introduce tu API de Google en donde dice "Introduce tu API aqui".
+paso 3 Tambien introduce tu API en app/res/values/google_maps_api.xml En donde dice "Introduce tu API aqui".
+Paso 4 Corre la app si la vas a correr en un movil asegurate de que en Gradle Sripts/build.grade.kts(app)
+en defaultConfig { minSdk = 24 si la app no corre ve variando entre 20 y 25 dependiendo de tu dispositivo.
+
+Y listo Disfruta de Google MAPS.
